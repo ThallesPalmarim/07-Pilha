@@ -124,6 +124,7 @@ void pop()
 	}
 	else
 	{
+		cout << "Elemento " << topo->valor << " removido\n";
 		NO* aux = topo;
 		topo = aux->prox;
 		free(aux);
